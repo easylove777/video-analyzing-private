@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.tmp
+.write.lock
+.DS_Store
+Thumbs.db

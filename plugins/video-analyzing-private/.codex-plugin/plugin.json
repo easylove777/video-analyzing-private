@@ -1,0 +1,23 @@
+{
+  "name": "video-analyzing-private",
+  "version": "1.0.0",
+  "description": "Private tea ecommerce video blind prediction and T+7 review workflow with an independent full-history database.",
+  "author": {
+    "name": "Private"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Video Analyzing Private",
+    "shortDescription": "茶叶视频盲预测与 T+7 复盘私有库",
+    "longDescription": "使用独立的完整历史数据库执行茶叶电商短视频隔离盲预测、T+7 复盘和模型沉淀。",
+    "developerName": "Private",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "使用 video-analyzing 对茶叶短视频进行隔离盲预测。"
+    ]
+  }
+}

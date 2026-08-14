@@ -1,0 +1,4 @@
+interface:
+  display_name: "茶叶视频预测复盘（私有库）"
+  short_description: "bootstrap 独立私有数据库后执行隔离盲预测与 T+7 复盘"
+  default_prompt: "使用 $video-analyzing 时先运行 bootstrap，并只使用其返回的 data_root；校验通过后完成隔离盲预测、T+7复盘或 Observation 沉淀。"

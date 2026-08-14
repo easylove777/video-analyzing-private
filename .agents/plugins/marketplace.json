@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Private Marketplace"
+  },
+  "name": "private-marketplace",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "name": "video-analyzing-private",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./plugins/video-analyzing-private",
+        "source": "local"
+      }
+    }
+  ]
+}
